@@ -30,6 +30,39 @@
                 </div>
             </fieldset> 
 
+          <fieldset class="grupo">
+                <div class="campo">
+                    <label for="endereco"><strong>Rua</strong></label>
+                    <input type="text" name="endereco" id="endereco" required>
+                </div>
+
+                <div class="campo">
+                    <label for="numero"><strong>numero</strong></label>
+                    <input type="number" name="numero" id="numero" required>
+                </div>
+                       
+                <div class="campo">
+                    <label for="complem"><strong>complemento</strong></label>
+                    <input type="text" name="complem" id="complem" required>
+                </div>
+            </fieldset>
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="cep"><strong>CEP</strong></label>
+                    <input type="number" name="cep" id="cep" required>
+                </div>
+                <div class="campo">
+                    <label for="cidade"><strong>Cidade</strong></label>
+                    <input type="text" name="cidade" id="cidade" required>
+                </div>
+                <div class="campo">
+                    <label for="estado"><strong>Estado</strong></label>
+                    <input type="text" name="estado" id="estado" required>
+                </div>
+            </fieldset> 
+
+          
             <div class="campo">
                 <label for="email"><strong>Email</strong></label>
                 <input type="email" name="email" id="email" required>
@@ -44,12 +77,11 @@
                 </label>
             </div>  
           
-           
-            <div class="campo">
-                <br>
-                <label for="coment"><strong>Comentário: </strong></label>
-                <textarea rows="6" style="width: 26em" id="coment" name="coment"></textarea>
+           <div class="campo">
+                <label for="nassoc"><strong>Número Associado</strong></label>
+                <input type="number" name="nassoc" id="nassoc" required>
             </div>
+            
 
             <button class="botao" type="submit" onsubmit="">Enviar</button>            
 
